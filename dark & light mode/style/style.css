@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    padding: .5rem;
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: #222;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: #fff;
+    }
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,52 @@
+section .box {
+    width: 100%;
+    height: 90vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box .image {
+    width: 250px;
+    height: 150px;
+    background-color: azure;
+    margin: 50px 10px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.active {
+    width: 90% !important;
+    height: 90vh !important;
+    position: absolute;
+}
+
+section .box .image h2 {
+    text-align: center;
+    visibility: hidden;
+    position: fixed;
+    left: 45%;
+    margin-top: 50px;
+    background-color: cornflowerblue;
+    padding: .7rem;
+    border-radius: 5px;
+}
+
+section .box .image p {
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    background-color: rgb(126, 126, 126);
+    height: 50px;
+}
+
+.active2 {
+    visibility: visible !important;
+}

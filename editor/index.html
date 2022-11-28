@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="editor" contenteditable="">
+            <textarea oninput="run()" name="html" id="html" placeholder="html"></textarea>
+            <textarea oninput="run()" name="css" id="css" placeholder="css"></textarea>
+            <textarea oninput="run()" name="js" id="js" placeholder="js"></textarea>
+        </div>
+        <div class="bar" draggable="true"></div>
+        <div class="preview">
+            <iframe id="preview" placeholder="preview"></iframe>
+        </div>
+    </section>
+    <!-- <p id="p" style="font-size: 3rem;margin:3rem;color:green">hover me!</p> -->
+</body>
+
+</html>
+
+<script src="js/script.js"></script>

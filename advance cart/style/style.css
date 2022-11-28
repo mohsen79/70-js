@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cart {
+    width: 50%;
+    height: 50%;
+    background-color: lightgreen;
+    position: absolute;
+    left: 25%;
+    /* top: -500px; */
+    transition: all .3s ease-in-out;
+    overflow: auto;
+}
+
+.inner-cart {
+    width: 100%;
+    height: 88%;
+    background-color: lightgreen;
+    left: 25%;
+    /* top: -500px; */
+    transition: all .3s ease-in-out;
+    overflow: auto;
+}
+
+.cart-active {
+    top: 100px;
+}
+
+.cart-item {
+    width: 100%;
+    height: 30%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    margin: .3rem 0;
+}
+
+.cart-item img {
+    width: 150px;
+    height: 100%;
+}
+
+.cart-item .cart-price {
+    width: 40%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-price span {
+    padding: .3rem .7rem;
+    background-color: rgb(233, 101, 19);
+    border-radius: 5px;
+}
+
+.cart-price input {
+    width: 50px;
+    height: 30px;
+}
+
+.cart-item .remove {
+    padding: .3rem .7rem;
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 8rem;
+}
+
+.container {
+    width: 99vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container i {
+    font-size: 1.5rem;
+    margin: 1rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+.container .box {
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.box .item {
+    width: 22%;
+    height: 50%;
+    background-color: bisque;
+    margin: 1.1rem;
+}
+
+.item img {
+    width: 100%;
+    height: 70%;
+}
+
+.item .info {
+    width: 100%;
+    height: 20%;
+    background-color: purple;
+    font-size: .7rem;
+    padding: .3rem;
+}
+
+.item .buy {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 134, 154);
+    display: flex;
+    justify-content: space-around;
+    padding: .2rem;
+}
+
+.buy span {
+    padding: .5rem 1rem;
+    background-color: rgb(233, 101, 19);
+    border-radius: 5px;
+}
+
+.buy a {
+    padding: .5rem 1rem;
+    background-color: rgb(116, 57, 255);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cart::after {
+    content: attr(data-price);
+    width: 50%;
+    height: 7%;
+    background-color: red;
+    position: fixed;
+    /* top: var(--top); */
+    /* top: 54.7%; */
+    padding: 1.1rem;
+    box-sizing: border-box;
+}
+
+
+/* .price {
+    width: 50%;
+    height: 10%;
+    background-color: rgba(156, 156, 156, 0.774);
+    position: fixed;
+    top: -100px;
+    transition: all .5s ease-in-out;
+}
+
+.price-active {
+    top: 51%;
+    background-color: red !important;
+} */

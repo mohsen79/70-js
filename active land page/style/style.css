@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    width: 100vw;
+    list-style-type: none;
+    background-color: aqua;
+    padding: .8rem;
+    position: fixed;
+}
+
+ul li {
+    display: inline;
+    padding: .9rem;
+}
+
+ul li:hover {
+    background: gray;
+    /* cursor: pointer; */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#centeral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+}
+
+#physic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(14, 250, 128);
+}
+
+#sport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(217, 0, 255);
+}
+
+#computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(31, 121, 255);
+}
+
+.active {
+    background: yellow;
+}

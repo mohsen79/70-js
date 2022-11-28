@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../photos/milad-tower.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 50vw;
+    height: 40vh;
+    position: absolute;
+    left: 7%;
+    top: 30%;
+    padding: 1rem;
+    line-height: 40px;
+    color: white;
+}
+
+.container .box {
+    display: flex;
+}
+
+.box h4 {
+    font: italic 1.2em "Fira Sans", serif;
+    /* font-family: "Audiowide", sans-serif; */
+    font-size: 2rem;
+    margin: 0 .5rem;
+    color: red;
+}
+
+.box h4::after {
+    content: '';
+    border-left: 3px solid red;
+    margin: .3rem;
+    animation: blink .8s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

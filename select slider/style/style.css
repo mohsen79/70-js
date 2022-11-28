@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+main img {
+    width: 800px;
+    height: 550px;
+}
+
+section {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+section img {
+    width: 200px;
+    height: 150px;
+    margin: 0 .8rem;
+    cursor: pointer;
+}

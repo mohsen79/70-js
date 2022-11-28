@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 17%;
+    height: 15%;
+    position: relative;
+}
+
+section textarea {
+    width: 300px;
+    height: 100px;
+}
+
+section .remain {
+    position: absolute;
+    left: 3%;
+    bottom: 1%;
+}

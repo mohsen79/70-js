@@ -1,0 +1,123 @@
+{
+    "goods": [{
+            "id": 1,
+            "title": "perfume",
+            "brand": "polo",
+            "price": "300",
+            "src": "photos/polo-perfume.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 2,
+            "title": "phone",
+            "brand": "apple",
+            "price": "1300",
+            "src": "photos/iphone13.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 3,
+            "title": "shirt",
+            "brand": "polo",
+            "price": "200",
+            "src": "photos/polo-shirt.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        },
+        {
+            "id": 4,
+            "title": "laptop",
+            "brand": "acer",
+            "price": "1200",
+            "src": "photos/aspire5.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim cum alias quae voluptates veritatis aliquam minima cumque, laboriosam ducimus tempora nesciunt aliquid quibusdam inventore eveniet. Libero, dolor doloremque."
+        }
+    ]
+}

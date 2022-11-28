@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 99vw;
+    height: 250vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: green;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.left-section {
+    width: 49%;
+    height: 150vh;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.wall {
+    width: 30px;
+    height: 2500px;
+    background-color: red;
+}
+
+.circle1 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 8%;
+}
+
+.circle2 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 17.2%;
+}
+
+.circle3 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 25.4%;
+}
+
+.circle4 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 34.3%;
+}
+
+.circle5 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 44.3%;
+}
+
+.circle6 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 53.7%;
+}
+
+.circle7 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 65%;
+}
+
+.circle8 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 74.3%;
+}
+
+.right-section {
+    width: 49%;
+    height: 150vh;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item {
+    text-align: center;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.item1 {
+    width: 300px;
+    height: 200px;
+    margin: 1.3rem;
+    background-color: lightgreen;
+    position: relative;
+    top: 5%;
+    right: 100%;
+}
+
+.item1::after {
+    content: '';
+    background-color: lightgreen;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -3%;
+    top: 40%;
+    transform: rotate(45deg);
+}
+
+.item2 {
+    width: 300px;
+    height: 200px;
+    margin: 1.3rem;
+    background-color: lightgreen;
+    position: relative;
+    top: 20%;
+    right: 100%;
+}
+
+.item2::after {
+    content: '';
+    background-color: lightgreen;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -3%;
+    top: 40%;
+    transform: rotate(45deg);
+}
+
+.item3 {
+    width: 300px;
+    height: 200px;
+    margin: 1.3rem;
+    background-color: lightgreen;
+    position: relative;
+    top: 23%;
+    left: 100%;
+}
+
+.item3::after {
+    content: '';
+    background-color: lightgreen;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -3%;
+    top: 40%;
+    transform: rotate(45deg);
+}
+
+.item4 {
+    width: 300px;
+    height: 200px;
+    margin: 1.3rem;
+    background-color: lightgreen;
+    position: relative;
+    top: 37%;
+    left: 100%;
+}
+
+.item4::after {
+    content: '';
+    background-color: lightgreen;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -3%;
+    top: 40%;
+    transform: rotate(45deg);
+}
+
+.item5 {
+    width: 300px;
+    height: 200px;
+    margin: 1.3rem;
+    background-color: lightgreen;
+    position: relative;
+    top: 37%;
+    right: 100%;
+}
+
+.item5::after {
+    content: '';
+    background-color: lightgreen;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -3%;
+    top: 40%;
+    transform: rotate(45deg);
+}
+
+.item6 {
+    width: 300px;
+    height: 200px;
+    margin: 1.3rem;
+    background-color: lightgreen;
+    position: relative;
+    top: 57%;
+    right: 100%;
+}
+
+.item6::after {
+    content: '';
+    background-color: lightgreen;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -3%;
+    top: 40%;
+    transform: rotate(45deg);
+}
+
+.item7 {
+    width: 300px;
+    height: 200px;
+    margin: 1.3rem;
+    background-color: lightgreen;
+    position: relative;
+    top: 55%;
+    left: 100%;
+}
+
+.item7::after {
+    content: '';
+    background-color: lightgreen;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -3%;
+    top: 40%;
+    transform: rotate(45deg);
+}
+
+.item8 {
+    width: 300px;
+    height: 200px;
+    margin: 1.3rem;
+    background-color: lightgreen;
+    position: relative;
+    top: 75%;
+    left: 100%;
+}
+
+.item8::after {
+    content: '';
+    background-color: lightgreen;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -3%;
+    top: 40%;
+    transform: rotate(45deg);
+}
